@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_emoji">150dp</dimen>
+    <dimen name="size_random_emoji">250dp</dimen>
+
+    <dimen name="margin_ordinary">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_bottom_screen">50dp</dimen>
+    <dimen name="margin_top_progress">250dp</dimen>
+
+    <dimen name="progress_size">60dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+
+    <dimen name="text_size_single_emoji">150sp</dimen>
+    <dimen name="text_size_item_emoji">90sp</dimen>
+
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="card_corner_radius">6dp</dimen>
+</resources>

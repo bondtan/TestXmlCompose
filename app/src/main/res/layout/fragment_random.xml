@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".presentation.screens.randomFragment.RandomFragment">
+
+    <TextView
+        android:id="@+id/textview_random_emoji"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:textSize="@dimen/text_size_single_emoji"
+        android:gravity="center"
+        tools:text="Hello"/>
+
+    <TextView
+        android:id="@+id/textview_random_name_emoji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+        android:layout_margin="@dimen/margin_ordinary"
+        android:gravity="center"
+        tools:text="My name" />
+
+    <Button
+        android:id="@+id/button_random_emoji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_ordinary"
+        android:layout_marginEnd="@dimen/margin_ordinary"
+        android:layout_marginBottom="@dimen/margin_bottom_screen"
+        android:text="@string/button_random_emoji" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progress_random_emoji"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_progress"
+        android:indeterminate="true"
+        android:indeterminateDuration="@integer/material_motion_duration_long_2"
+        android:visibility="gone"
+        app:indicatorSize="@dimen/progress_size"
+        app:indicatorColor="@color/teal_700" />
+
+</LinearLayout>

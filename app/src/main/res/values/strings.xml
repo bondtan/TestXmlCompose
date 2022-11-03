@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestXmlCompose</string>
+    <string name="menu_random_emoji">Random</string>
+    <string name="menu_list_emoji">List emoji</string>
+    <string name="button_random_emoji">Next</string>
+    <string name="fragment_random_emoji">Random emoji</string>
+    <string name="fragment_emoji">Emoji</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_try_again">Try again</string>
+    <string name="cancel">Cancel</string>
+</resources>
